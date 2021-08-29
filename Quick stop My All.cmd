@@ -18,6 +18,8 @@ powershell Stop-Process -Name "opera" -Force
 powershell Stop-Process -Name "brave" -Force
 powershell Stop-Process -Name "UCBrowser" -Force
 
+powershell Stop-Process -Name "qbittorrent" -Force
+
 
 #ADOBE
 taskkill /F /IM "AGMService.exe"
