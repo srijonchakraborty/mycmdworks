@@ -42,3 +42,18 @@ taskkill /F /IM "AGSService.exe"
 powershell Stop-Process -Name "cmtray" -Force
 
 powershell Stop-Process -Name "Skype" -Force
+
+
+powershell Stop-Process -Name "vpnui" -Force
+powershell Stop-Process -Name "scgui" -Force
+powershell Stop-Process -Name "mspaint" -Force
+powershell Stop-Process -Name "AcroRd32" -Force
+
+powershell Stop-Process -Name "MSBuild" -Force
+
+powershell Stop-Process -Name "dbforgesql" -Force
+
+powershell Stop-Process -Name "AnyDesk" -Force
+
+powershell Stop-Process -Name "mspaint" -Force
+powershell Stop-Process -Name "SnippingTool" -Force
