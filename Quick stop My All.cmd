@@ -57,3 +57,5 @@ powershell Stop-Process -Name "AnyDesk" -Force
 
 powershell Stop-Process -Name "mspaint" -Force
 powershell Stop-Process -Name "SnippingTool" -Force
+
+powershell Stop-Process -Name "sublime_text" -Force
